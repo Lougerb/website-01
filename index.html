@@ -9,40 +9,76 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="container">
-      <header>
-        <div id="header-1">
-          <div id="nav-logo">
-            <img src="./assets/logo.svg" alt="lh-logo" />
+    <!-- <div class="container"> -->
+    <header>
+      <div id="header-1">
+        <div id="nav-logo">
+          <img src="./assets/logo.svg" alt="lh-logo" />
+        </div>
+        <div id="nav-hamburger">
+          <div id="sandwich">
+            <div class="patty"></div>
+            <div class="patty"></div>
+            <div class="patty"></div>
           </div>
-          <div id="nav-hamburger">
-            <div id="sandwich">
-              <div class="patty"></div>
-              <div class="patty"></div>
-              <div class="patty"></div>
-            </div>
 
-            <div id="close">
-              <div class="patty close-a"></div>
-              <div class="patty close-b"></div>
-            </div>
+          <div id="close">
+            <div class="patty close-a"></div>
+            <div class="patty close-b"></div>
           </div>
         </div>
-        <div id="header-2" class="nav-main">
-          <ul id="nav">
-            <li>ABOUT</li>
-            <li>SERVICE</li>
-            <li>ACCESS</li>
-            <li>
-              RECRUIT <img src="./assets/icon-external.svg" alt="external" />
-            </li>
-          </ul>
-          <div class="nav-contact">
-            <span>CONTACT</span>
+      </div>
+      <div id="header-2" class="nav-main">
+        <ul id="nav">
+          <li>ABOUT</li>
+          <li>SERVICE</li>
+          <li>ACCESS</li>
+          <li>
+            RECRUIT <img src="./assets/icon-external.svg" alt="external" />
+          </li>
+        </ul>
+        <div class="nav-contact">
+          <span>CONTACT</span>
+        </div>
+      </div>
+    </header>
+    <!-- </div> -->
+    <div class="container">
+      <div class="carousel">
+        <div class="container-title">
+          <h1>Carousel</h1>
+        </div>
+
+        <div class="carousel-wrapper">
+          <div id="carousel-slider" class="carousel-img">
+            <img src="./assets/carousel/carousel-img05@2x.png" alt="img-5" />
+            <img
+              src="./assets/carousel/carousel-img06@2x.png"
+              alt="img-6"
+              id="lastImg"
+            />
+            <img src="./assets/carousel/carousel-img01@2x.png" alt="img-1" />
+            <img src="./assets/carousel/carousel-img02@2x.png" alt="img-2" />
+            <img src="./assets/carousel/carousel-img03@2x.png" alt="img-3" />
+            <img src="./assets/carousel/carousel-img04@2x.png" alt="img-4" />
+            <img src="./assets/carousel/carousel-img05@2x.png" alt="img-5" />
+            <img src="./assets/carousel/carousel-img06@2x.png" alt="img-6" />
+            <img
+              src="./assets/carousel/carousel-img01@2x.png"
+              alt="img-1"
+              id="firstImg"
+            />
+            <img src="./assets/carousel/carousel-img02@2x.png" alt="img-2" />
+          </div>
+          <div class="btn-wrapper">
+            <div id="c-prev" class="btn-prev"></div>
+            <div id="c-next" class="btn-next"></div>
           </div>
         </div>
-      </header>
+      </div>
     </div>
-    <script src="/script/script.js"></script>
+    <!-- <script src="./script/header.js"></script> -->
+    <script type="module" src="/script/script.js"></script>
+    <!-- <script src="./script/carousel.js"></script> -->
   </body>
 </html>
